@@ -1,0 +1,10 @@
+.btn.btn-primary {
+	background: rgb( 34,185,255 );
+	border-color: rgb( 34,185,255 );
+}
+
+.btn.btn-warning {
+	background: rgb( 222,28,28 );
+	border-color: rgb( 222,28,28 );
+	color: rgb( 255,255,255 );
+}

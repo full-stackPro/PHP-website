@@ -1,0 +1,10 @@
+#m_header_menu .m-menu__link.active,
+#m_header_menu .m-menu__link.active .m-menu__link-text {
+	font-weight: bold;
+	color: rgb( 34,185,255 );
+}
+
+.m-header--fixed .m-header.listing_header {
+	top: 90px;
+	height: 50px;
+}

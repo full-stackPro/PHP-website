@@ -1,0 +1,12 @@
+.m-widget21-button-group .m-widget21-button {
+	width: 110px;
+	margin: 5px;
+}
+
+.carousel-indicators li {
+	background-color: gray;
+}
+
+.carousel-indicators li.active {
+	background-color: green;
+}

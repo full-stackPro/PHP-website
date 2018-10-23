@@ -1,0 +1,209 @@
+ .listing .item .input input {
+    border-radius: 10px !important;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+textarea#features_list {
+    border-radius: 10px !important;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+}
+.listing .item label {
+    text-align: right;
+    font-weight: 400;
+}
+select#structure-mech_issues {
+    border-radius: 10px !important;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+select#show_countdown {
+    border-radius: 10px !important;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+			.input {
+				position: relative; 
+			}
+
+			.spinner {
+				position: absolute;
+				top: 0px;
+				right: -19px;
+				display: none;
+			}
+
+				.spinner.loading {
+					margin-top: 14px;
+					margin-right: 7px;
+				}
+
+				.spinner.loading,
+				.spinner.error,
+				.spinner.success {
+					display: inline-block;
+				}
+
+				.spinner:not( :required ):after {
+					font-size: 5px;
+				}
+
+				.spinner.error:before,
+				.spinner.success:before {
+					font-weight: bold;
+					font-size: 20px;
+				}
+
+				.spinner.error:before {
+					content: "x";
+					color: rgb( 240,0,0 );
+				}
+
+				.spinner.success:before {
+					content: "&#10003;";
+					color: rgb( 0,220,0 );
+				}
+
+
+			.listing {
+
+			}
+
+				.listing .item {
+					display: inline-block;
+					width: 48%;
+				}
+
+					.listing .item label,
+					.listing .item .input {
+						display: inline-block;
+						width: 38%;
+						margin: 6px;
+					}
+
+						.listing .item .input input {
+							width: 100%;
+						}
+
+			.button_row {
+				text-align: center;
+				margin: 20px;
+			}
+
+			.button {
+				display: inline-block;
+				border: 1px solid;
+			}
+				.button.primary {
+					background:	rgb( 355,00,0 );
+					border-color: green;
+				}
+
+@media screen and ( max-width: 1120px ) {
+
+	.listing .item {
+		display: block;
+		width: 98%;
+		margin: 0 auto;
+	}
+
+		.listing .item label {
+			text-align: right;
+		}
+
+		.listing .item label,
+		.listing .item .input {
+			width: 46%;
+		}
+}
+@media screen and ( max-width: 1024px ) {
+
+        .m-header--fixed-mobile .m-topbar {
+                                margin-top: 0;
+                                top: 0;
+                        }
+
+	.listing .item label {
+		text-align: right;
+	}
+
+	.listing .item label,
+	.listing .item .input {
+		width: 46%;
+	}
+	.m-aside-header-menu-mobile {
+	    left: 0;
+	    width: 20% !important;
+	}
+	.m-header--fixed-mobile .m-topbar {
+	    width: 80% !important;
+	}
+	.m-aside-header-menu-mobile {
+	    left: 0;
+	    width: 100% !important;
+	    height: 65px;
+	    top: 60px;
+	}
+	.m-header--fixed-mobile .m-body {
+	    padding-top: 126px!important;
+	}
+	.m-header--fixed-mobile .m-topbar {
+	    width: 100% !important;
+	}
+	.m-aside-header-menu-mobile .m-menu__nav .m-menu__item>.m-menu__heading .m-menu__link-text, .m-aside-header-menu-mobile .m-menu__nav .m-menu__item>.m-menu__link .m-menu__link-text {
+	    display: inline-block;
+	    width: initial;
+	}
+	.m-aside-header-menu-mobile .m-menu__nav .m-menu__item>.m-menu__heading, .m-aside-header-menu-mobile .m-menu__nav .m-menu__item>.m-menu__link {
+	    display: inline-block;
+	}
+	.m-aside-header-menu-mobile .m-menu__nav .m-menu__item {
+	    display: inline-block;
+	}
+	.m-aside-header-menu-mobile .m-menu__nav {
+	    padding: 10px 0 10px 0;
+	    margin-bottom: 0 !important;
+	}
+
+}
+
+@media screen and ( max-width: 510px ) {
+
+	.listing .item label,
+	.listing .item .input {
+		margin-left: auto;
+		margin-right: auto;
+		width: 98%;
+		text-align: center;
+	}
+	.m-aside-header-menu-mobile {
+		left: 0;
+		width: 100% !important;
+		height: 65px;
+	}
+	.m-aside-header-menu-mobile .m-menu__nav .m-menu__item>.m-menu__heading, .m-aside-header-menu-mobile .m-menu__nav .m-menu__item>.m-menu__link {
+		display: inline-block;
+	}
+	.m-aside-header-menu-mobile .m-menu__nav .m-menu__item>.m-menu__heading .m-menu__link-text, .m-aside-header-menu-mobile .m-menu__nav .m-menu__item>.m-menu__link .m-menu__link-text {
+		display: inline-block;
+		width: initial;
+	}
+	.m-aside-header-menu-mobile .m-menu__nav {
+		list-style: none;
+		padding: 10px 0 10px 0;
+		margin-bottom: 0 !important;
+	}
+	.m-aside-header-menu-mobile .m-menu__nav>.m-menu__item {
+		display: inline-block;
+	}
+}
+
+.m-portlet__body {
+	margin-top: 29px;
+}
